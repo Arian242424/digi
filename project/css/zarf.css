@@ -1,0 +1,23 @@
+div.zarf{
+    gap: 20px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    width: 99%;
+    height: 250px;
+    margin-top: 25px;
+    div.right{ 
+    width: 45%;
+    height: inherit;}
+    div.left{
+    width: 45%;
+    height: inherit;}
+}
+.o{
+    width: 90%;
+    margin: 0px auto;
+    border-radius: 30px;
+    object-fit: cover;
+    border-radius: 20px;
+}

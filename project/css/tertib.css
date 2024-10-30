@@ -1,0 +1,25 @@
+div.tertib{
+    margin: 0px auto;
+    padding: 0px 4px 0px 4px;
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    width: 90%;
+    height: 270px;
+    div.tertib01{
+     width: 25%;
+     height: inherit;
+    img{
+     border-radius: 20px;
+     width: 90%;
+     height: auto;
+     object-fit: cover;
+}
+}
+}
+
+
+
+

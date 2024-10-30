@@ -1,0 +1,49 @@
+div.story {
+  margin-top: 10px;
+  overflow: hidden;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 175px;
+}
+div.story > div.mainstory {
+  
+  gap: 10;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: start;
+  align-items: center;
+  width: 80%;
+  height: inherit;
+}
+div.story > div.mainstory > div.content {
+  cursor: pointer;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 10%;
+  height: inherit;
+}
+div.story > div.mainstory > div.content > div.imgstory {
+  width: 75px;
+  height: 75px;
+}
+div.story > div.mainstory > div.content > div.imgstory > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+  outline: solid 3px #9f32ac;
+  outline-offset: 3px;
+}
+div.story > div.mainstory > div.content > div.titels {
+  width: 60%;
+}
+div.story > div.mainstory > div.content > div.titels > h5 {
+  font-size: 14px;
+  text-align: center;
+  color: rgb(75, 74, 74);
+}

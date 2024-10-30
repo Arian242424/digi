@@ -1,0 +1,100 @@
+div.digiclub {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  width: 90%;
+  height: 110px;
+  margin: 0 auto;
+  background-color: #037598;
+  border-radius: 20px;
+  background: linear-gradient(76.02deg, #35a6c8 33.32%, #007295 71.55%),
+    radial-gradient(21.29% 87.33% at 50% 50.67%, #7cf2f6 0, #35a6c8 100%);
+  div.h {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+  width: 17%;
+  height: inherit;
+  cursor: pointer;
+}  
+}
+
+div.digiclub div.h > svg > path {
+  text-align: center;
+}
+
+div.digiclub div.l {
+  gap: 5px;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+  width: 60%;
+  height: inherit;
+}
+div.digiclub div.l > div.kol {
+  cursor: pointer;
+  display: flex;
+  flex-flow: row-reverse;
+  justify-content: space-between;
+  align-content: center;
+  width: 33%;
+  height: 70px;
+  background-color: rgb(255, 255, 255);
+  margin-left: 10px;
+}
+div.digiclub div.l > div.kol> div.kolee {
+  border-radius: 0px 10px 10px 0px;
+}
+
+div.kolrr {
+  border-radius: 10px 0px 0px 10px;
+  div.dis{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    height: inherit;
+    p{
+      font-size: 14px;
+      color: black;
+      font-weight: 600;
+      text-align: center;
+    }
+  }
+}
+
+div.digiclub div.l > div.kol div.img {
+  overflow: hidden;
+  width: 60%;
+  height: auto;
+}
+div.digiclub div.l > div.kol div.img > img {
+  width: 100%;
+  object-fit: cover;
+  height: auto;
+}
+
+div.digiclub div.l > div.kol > div.dis {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+  width: 40%;
+  height: inherit;
+}
+div.digiclub div.l > div.kol > div.dis > p {
+  font-size: 14px;
+  color: black;
+  font-weight: 600;
+  text-align: center;
+}
+
+.jj {
+  border-radius: 10px 0px 0px 10px;
+}

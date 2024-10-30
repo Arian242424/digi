@@ -1,0 +1,111 @@
+div.bottemamazing {
+  overflow: hidden;
+  cursor: pointer;
+  margin: 20px;
+  border-radius: 40px;
+  padding: 20px;
+  display: flex;
+  flex-flow: row nowrap;
+  width: 85%;
+  height: 100px;
+  margin: 0px auto;
+  background-color: #eceeee;
+}
+div.bottemamazing > div.right {
+  gap: 20px;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+  width: 40%;
+  height: inherit;
+}
+div.bottemamazing > div.right > div.aval {
+  width: 30%;
+  height: inherit;
+}
+div.bottemamazing > div.right > div.aval > img {
+  object-fit: cover;
+}
+div.bottemamazing > div.right > div.sevomi {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  width: 33%;
+  height: inherit;
+}
+div.bottemamazing > div.right > div.sevomi > div.takhfif {
+  width: 130px;
+  height: 30px;
+  background-color: #029a49;
+  border-radius: 20px;
+}
+div.bottemamazing > div.right > div.sevomi > div.takhfif > p {
+  padding: 4px;
+  color: white;
+  text-align: center;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+div.bottemamazing > div.left {
+  gap: 10px;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: start;
+  align-items: center;
+  width: 60%;
+  height: inherit;
+}
+div.bottemamazing > div.left > div.content {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column nowrap;
+    width: 100px;
+    height: 100px;
+}
+div.bottemamazing > div.left > div.content > img {
+  border-radius: 50%;
+  width: 90%;
+  height: 90%;
+  object-fit: cover;
+}
+div.bottemamazing > div.left > div.content>div.logo{
+   position: absolute;
+   bottom: 0px;
+   right: 5px;
+text-align: center;
+width: 40px;
+height: 22px;
+border-radius: 20px;
+background-color: #d11a1a;
+padding: 2px;
+color: white;
+font-size: 15px;
+
+}
+
+
+div.bottemamazing > div.left > div.more1 {
+    border-radius: 20px;
+    gap: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: row nowrap;
+  width: 150px;
+  height: 40px;
+  background-color: rgb(255, 255, 255);
+}
+div.bottemamazing > div.left > div.more1 >div.right{
+    width: fit-content;
+    color:#029a49 ;
+}
+
+div.bottemamazing > div.left > div.more1 >div.left>{
+    width: fit-content;
+    background-color: #d11a1a;
+    text-align: center;
+}

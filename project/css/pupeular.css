@@ -1,0 +1,39 @@
+div.pupeular {
+  width: 100%;
+  height: 220px;
+}
+div.pupeular > div.mainpupeular {
+  width: 100%;
+  height: inherit;
+  border: solid 2px rgb(204, 199, 199);
+  border-radius: 20px;
+  box-sizing: border-box;
+}
+div.pupeular > div.mainpupeular > h1 {
+  text-align: center;
+  padding: 20px;
+  font-weight: 100;
+  font-size: 25px;
+}
+div.pupeular > div.mainpupeular > div.pict {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-items: center;
+  align-items: center;
+  gap: 2px;
+  width: 100%;
+  height: inherit;
+}
+div.pupeular > div.mainpupeular > div.pict >div.akss{
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: start;
+  align-items: center;
+  width: 10%;
+  height: inherit;
+  margin-bottom: 30px;
+}
+div.pupeular > div.mainpupeular > div.pict >div.akss>img{
+  object-fit: contain;
+  width: 100%;
+}
